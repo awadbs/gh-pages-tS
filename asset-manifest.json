@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/talkscaled-landing/static/css/main.fb2ae641.css",
+    "main.js": "/talkscaled-landing/static/js/main.a6a29c74.js",
+    "static/js/453.f5dd9ff5.chunk.js": "/talkscaled-landing/static/js/453.f5dd9ff5.chunk.js",
+    "static/media/audioDemo.mp3": "/talkscaled-landing/static/media/audioDemo.64174323b5e2eae7933a.mp3",
+    "static/media/calendar.png": "/talkscaled-landing/static/media/calendar.0bf7927c89784c0bc899.png",
+    "static/media/phonephone.png": "/talkscaled-landing/static/media/phonephone.c8966e6eb023c52ef62e.png",
+    "static/media/sandwatch.png": "/talkscaled-landing/static/media/sandwatch.860c58273c28544fa74d.png",
+    "static/media/logoFull.svg": "/talkscaled-landing/static/media/logoFull.74c3965b72c09abd9ae9b12096803cf6.svg",
+    "static/media/robotHandShake.jpg": "/talkscaled-landing/static/media/robotHandShake.43a6a9703ffd7adc2fa2.jpg",
+    "static/media/Testttt.svg": "/talkscaled-landing/static/media/Testttt.1ee2d8b7d09d7758417f93196e788082.svg",
+    "static/media/logoIcon.svg": "/talkscaled-landing/static/media/logoIcon.9349fe37605f7fbe305338bc6cf65562.svg",
+    "index.html": "/talkscaled-landing/index.html",
+    "main.fb2ae641.css.map": "/talkscaled-landing/static/css/main.fb2ae641.css.map",
+    "main.a6a29c74.js.map": "/talkscaled-landing/static/js/main.a6a29c74.js.map",
+    "453.f5dd9ff5.chunk.js.map": "/talkscaled-landing/static/js/453.f5dd9ff5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb2ae641.css",
+    "static/js/main.a6a29c74.js"
+  ]
+}
