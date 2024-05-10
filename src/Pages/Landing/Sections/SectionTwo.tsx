@@ -42,10 +42,10 @@ export const SectionTwo: React.FC<SectionTwoProps> = () => {
             description="Handles multiple calls at the same time, so your patients will never get frustrated of getting put on hold"
           />
           <FeatureCard imageUrl={sandwatch}
-            description="Available 24 hours a day, so your office is reachable any time of the day"
+            description="Available 24 hours a day, so even your busiest patients can reach your office "
           />
           <FeatureCard imageUrl={calendar}
-            description="Automated appointment booking, and patient intaking means less work for your office"
+            description="Automated appointment booking and patient intaking means less work for your office"
           />
         </div>
       </div>

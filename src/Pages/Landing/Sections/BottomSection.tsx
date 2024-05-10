@@ -11,9 +11,6 @@ type FirstSectionProps = {
 export const BottomSection: React.FC<FirstSectionProps & React.RefAttributes<HTMLDivElement>> = forwardRef<HTMLDivElement>((props, ref) => {
   const [state, handleSubmit] = useForm("xeqynvqq");
 
-  if (state.succeeded) {
-      return <h2> Thanks for reaching out! We promise to get back to you within 24 hours!</h2>;
-  }
   return (
     <div className='bg-primary-700 p-4'>
       <div className="container mx-auto p-5">
@@ -23,7 +20,7 @@ export const BottomSection: React.FC<FirstSectionProps & React.RefAttributes<HTM
           </h2>
           {/* Sign-up Form */}
             <div  ref={ref} className="bg-tertiary-50 border-2 rounded-xl shadow-md p-10 grid gap-8 max-w-[550px] justify-center text-black">
-                {state?.succeeded ?  <h2> Thanks for reaching out! <br/> We promise to get back to you within 24 hours.</h2>: (<><h2 className='text-4xl text-center'> Sign up for a live demo</h2>
+                {state?.succeeded ?  <h2> Thanks for reaching out. <br/> <br/> ✉️ 🎉 <br/> <br/> We promise to get back to you within 24 hours!</h2>: (<><h2 className='text-4xl text-center'> Sign up for a live demo</h2>
                 <Form className='gap-4 justify-center' onSubmit={handleSubmit}> 
                   <TextField label='What is your name?' id="name" name="name" type='text'/>
                   <TextField label='Best phone number to reach you?' id="phone" name="phone" type='tel' isRequired errorMessage="We need your number" description="We won't send unwanted texts or calls!"/>

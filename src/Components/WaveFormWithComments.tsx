@@ -2,8 +2,8 @@ import React, { useCallback, useState } from 'react';
 import WaveformPlayer from './WaveForm'; // Import your WaveformPlayer component
 import audioFile from './audioDemo.mp3'; // Adjust the path according to your project structure
 import { Button } from './Base';
-import { RxPlay } from "react-icons/rx";
-import { RxPause } from "react-icons/rx";
+import { PiPlayBold } from "react-icons/pi";
+import { PiPauseBold } from "react-icons/pi";
 
 interface WaveFormWithCommentsCommentsProps {
   // url: string; // URL of the audio file
@@ -31,7 +31,7 @@ const WaveFormWithComments: React.FC<WaveFormWithCommentsCommentsProps> = ({
         className="border-0"
         onPress={togglePlayPause}
       >
-        {isPlaying ? <RxPause /> : <RxPlay/>}
+        {isPlaying ? <PiPauseBold /> : <PiPlayBold/>}
       </Button>
       <div className="flex-1 cursor-pointer">
         <WaveformPlayer url={audioFile} comments={comments} isPlaying={isPlaying} />

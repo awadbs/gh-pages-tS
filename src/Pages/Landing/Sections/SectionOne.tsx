@@ -8,7 +8,7 @@ type FirstSectionProps = {
 }
 export const SectionOne: React.FC<FirstSectionProps> = (props) => {
     const waveFormPlayerComments = [
-        { time: 0, text: 'This is a REAL conversation between our augmented assistanted model and a client.', position: "top" },
+        { time: 0, text: 'This is a REAL conversation between our augmented assistant and a client.', position: "top" },
         { time: 8, text: 'Intelligently responds to the clients questions',  position: "bottom" },
         { time: 18, text: 'Integrates with your Electronic Record system to find good time slots', position: "top"  },
         { time: 22, text: 'Can handle any questions appropriately', position: "bottom"  },

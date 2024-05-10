@@ -10,6 +10,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 production build: [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 ### `npm run build`
 
+## Deploying
+
+Commit and update your changes
+
 
 
 
