@@ -2,7 +2,7 @@
   "name": "talkscaled",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://awadbs.github.io/talkscaled-landing",
+  "homepage": "https://talkscaled.com",
   "dependencies": {
     "@adobe/react-spectrum": "^3.35.0",
     "@formspree/react": "^2.5.1",
